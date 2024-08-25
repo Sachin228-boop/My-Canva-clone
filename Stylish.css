@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+.toolbar {
+    margin: 20px;
+}
+.design-area {
+    width: 80%;
+    height: 500px;
+    border: 1px solid #ccc;
+    margin: auto;
+    position: relative;
+    background: #f9f9f9;
+}
+.design-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
